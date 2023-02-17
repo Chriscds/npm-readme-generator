@@ -4,6 +4,7 @@ function generateMarkdown(data) {
 
   <!-- Licence Badge to go here -->
           ## Description
+          ${data.description}
 
           ## Table of Contents
           - [Installation](#Installation)
@@ -18,12 +19,15 @@ function generateMarkdown(data) {
           ## Usage
 
           ## Licence
+          ${data.license}
 
           ## Contributing
 
           ## Tests
 
           ## Questions
+          ${data.username} <!-- add link here -->
+          ${data.email}
 `;
 }
 
