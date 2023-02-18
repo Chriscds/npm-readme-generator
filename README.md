@@ -1,7 +1,7 @@
 
 # NPM Readme Generator
 
-  <!-- Licence Badge to go here -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 A node application, written to generate a readme file with the use of npm. 
 

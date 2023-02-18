@@ -30,7 +30,7 @@ const questions = () =>
         type: 'list',
         message: 'Select a License for this project!',
         name: 'license',
-        choices: ['MIT', 'Apache', 'GPL', 'Microsoft', 'None'],
+        choices: ['MIT', 'Apache', 'GPL', 'Mozilla', 'None'],
     },
     {
         type: 'input',
@@ -64,7 +64,8 @@ function init() {
     questions()
     .then((input) => {
     // Then generates input and uses writeToFile fuction to write the README.md file.
-    writeToFile('README.md', generateMarkdown(input));
+    // writeToFile('README.md', generateMarkdown(input));
+    writeToFile('testerREADME.md', generateMarkdown(input));
 });
 };
 
