@@ -1,11 +1,9 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-# ${data.title}
+
+# Test
 
   <!-- Licence Badge to go here -->
 ## Description
-${data.description}
+test
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -31,16 +29,12 @@ Use this application by running:
 
 ## License
 
-This project is licensed under the ${data.license} license.
+This project is licensed under the MIT license.
 
 ## Contributing
 
 ## Tests
 
 ## Questions
-${data.username} <!-- add link here -->
-${data.email}
-`;
-}
-
-module.exports = generateMarkdown;
+test <!-- add link here -->
+test
