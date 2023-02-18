@@ -17,7 +17,7 @@ ${data.description}
 
 ## Installation
 
-Install the necessary dependencies, use the following commands line:
+Install the necessary dependencies, use the following command line:
 
 <pre>
   <code>npm install</code>
@@ -25,7 +25,7 @@ Install the necessary dependencies, use the following commands line:
 
 ## Usage
 
-Use this application by running:
+Use this application by running the below command line:
 
 <pre>
   <code>node index.js</code>
