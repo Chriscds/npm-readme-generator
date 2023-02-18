@@ -1,3 +1,6 @@
+// funtion to generate license badge
+
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
