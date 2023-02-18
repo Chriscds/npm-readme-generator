@@ -15,11 +15,27 @@ ${data.description}
 - [Tests](#Tests)
 - [Questions](#Questions)
 
+<details>
+  <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#Installation">Installation</a></li>
+      <li><a href="#Usage">Usage</a></li>
+      <li><a href="#Licence">Licence</a></li>
+      <li><a href="#Contributing">Contributing</a></li>
+      <li><a href="#Tests">Tests</a></li>
+      <li><a href="#Questions">Questions</a></li>
+    </ol>
+</details>
+
 ## Installation
 
 Install the necessary dependencies, use the following commands line:
 
-// npm install
+
+npm install
+
+
+
 
 
 ## Usage
@@ -38,8 +54,12 @@ This project is licensed under the ${data.license} license.
 ## Tests
 
 ## Questions
-${data.username} <!-- add link here -->
-${data.email}
+
+Any questions relating to this repository can be opened in an issue, or feel free to contact me 
+directly at ${data.email}.
+
+Take a look at the rest of my work at [${data.username}](https://github.com/Chriscds)
+
 `;
 }
 
