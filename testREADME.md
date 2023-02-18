@@ -1,9 +1,7 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-# ${data.title}
+<!-- #  -->
+# Title
+${data.title}
 
-  <!-- Licence Badge to go here -->
 ## Description
 ${data.description}
 
@@ -19,28 +17,26 @@ ${data.description}
 
 Install the necessary dependencies, use the following commands line:
 ```
-// npm install
+$ npm install
 ```
 
 ## Usage
 
 Use this application by running:
 ```
-// node index.js
+$ node index.js
 ```
 
 ## License
-
-This project is licensed under the ${data.license} license.
+          
+This project is licensed under the ${data.license} license
 
 ## Contributing
 
 ## Tests
 
 ## Questions
-${data.username} <!-- add link here -->
-${data.email}
-`;
-}
 
-module.exports = generateMarkdown;
+${data.username} 
+
+${data.email}

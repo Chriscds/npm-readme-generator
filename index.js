@@ -19,8 +19,8 @@ const questions = () =>
     },
     {
         type: 'list',
-        message: 'Select a Licence for this project!',
-        name: 'licence',
+        message: 'Select a License for this project!',
+        name: 'license',
         choices: ['MIT', 'Apache', 'GPL', 'Microsoft', 'None'],
     },
     {
@@ -36,6 +36,7 @@ const questions = () =>
 
 ]);
 
+// Prompts questions to user
 questions()
 
 
