@@ -40,7 +40,7 @@ This project is licensed under MIT.
 ## Questions
 
 Any questions relating to this repository can be opened in an issue, or feel free to contact me 
-directly at cdsouthon44@gmail.com.
+directly at csouthon44@gmail.com.
 
 Take a look at the rest of my work at [Chriscds](https://github.com/Chriscds)
 
