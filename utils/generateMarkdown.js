@@ -15,39 +15,25 @@ ${data.description}
 - [Tests](#Tests)
 - [Questions](#Questions)
 
-<details>
-  <h2>Table of Contents</h2>
-    <ol>
-      <li><a href="#Installation">Installation</a></li>
-      <li><a href="#Usage">Usage</a></li>
-      <li><a href="#Licence">Licence</a></li>
-      <li><a href="#Contributing">Contributing</a></li>
-      <li><a href="#Tests">Tests</a></li>
-      <li><a href="#Questions">Questions</a></li>
-    </ol>
-</details>
-
 ## Installation
 
 Install the necessary dependencies, use the following commands line:
 
-
-npm install
-
-
-
-
+<pre>
+  <code>npm install</code>
+</pre>
 
 ## Usage
 
 Use this application by running:
 
-// node index.js
-
+<pre>
+  <code>node index.js</code>
+</pre>
 
 ## License
 
-This project is licensed under the ${data.license} license.
+This project is licensed under ${data.license}.
 
 ## Contributing
 
