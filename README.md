@@ -1,9 +1,9 @@
 
-# Test
+# README.md Generator
 
   <!-- Licence Badge to go here -->
 ## Description
-test
+To generate a read me file using npm.
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -36,5 +36,5 @@ This project is licensed under the MIT license.
 ## Tests
 
 ## Questions
-test <!-- add link here -->
-test
+Chriscds <!-- add link here -->
+csouthon44@gmail.com
