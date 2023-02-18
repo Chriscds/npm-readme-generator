@@ -8,7 +8,7 @@ A node application, written to generate a readme file with the use of npm.
 ## Table of Contents
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Licence](#Licence)
+- [License](#License)
 - [Contributing](#Contributing)
 - [Tests](#Tests)
 - [Questions](#Questions)
