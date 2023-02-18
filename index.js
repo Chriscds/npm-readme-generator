@@ -1,10 +1,13 @@
+// fs for writing to the file system
 const fs = require("fs");
 const path = require('path');
+// inquirer for collecting user inputs
 const inquirer = require("inquirer");
+// Gets generateMarkdown function from js module.
 const generateMarkdown = require("./utils/generateMarkdown");
+const { default: InputPrompt } = require("inquirer/lib/prompts/input");
 
 // array of questions for user
-
 const questions = () =>
     inquirer.prompt([
     {
@@ -36,20 +39,30 @@ const questions = () =>
 
 ]);
 
-// Prompts questions to user
-questions()
+// Prompts questions to user.
+// questions()
 
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeToFile(fileName, data, (err) => {
+        if (err) {
+            return console.log(err);
+        }
+        // console.log if successful
+        console.log('Your README.md file has successfully been written!');
+    });
+};
 
-}
 
 
 // function to initialize program
 function init() {
-
-}
+    questions()
+    .then((input) => {
+    writeToFile('README.md', generateMarkdown(input));
+});
+};
 
 // function call to initialize program
 init();
