@@ -1,10 +1,10 @@
 
-# r
+# Testing 
 
-undefined
+
 
 ## Description
-r
+testing for link
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -41,7 +41,7 @@ This project is licensed under MIT.
 ## Questions
 
 Any questions relating to this repository can be opened in an issue, or feel free to contact me 
-directly at r.
+directly at csouthon@gmail.com.
 
-Take a look at the rest of my work at [r](https://github.com/Chriscds)
+Take a look at the rest of my work at [Chriscds](https://github.com/Chriscds)
 

@@ -13,7 +13,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // Added by node?
 const { default: InputPrompt } = require("inquirer/lib/prompts/input");
 
-// array of questions for user
+// array of questions for user inquirer prompt function
 const questions = () =>
     inquirer.prompt([
     {
@@ -44,6 +44,8 @@ const questions = () =>
     },
 
 ]);
+
+
 
 // function to write README file
 function writeToFile(fileName, data) {
