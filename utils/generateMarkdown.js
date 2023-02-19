@@ -57,6 +57,7 @@ This project is licensed under ${data.license}.
 Contribute to the project using the following:
 
 1. Fork this project.
+
 2. Create a feature branch:
 
 <pre>
@@ -76,6 +77,7 @@ Contribute to the project using the following:
 </pre>
 
 5. Open a pull request.
+
 
 ## Tests
 
