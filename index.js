@@ -34,20 +34,18 @@ const questions = () =>
     },
     {
         type: 'input',
-        name: 'username', // GitHub user name - to be added to Questions section include link
+        name: 'username', 
         message: 'What is your GitHub username?',
     },
     {
-        type: 'input', // Email address - to be added to Questions section 
-        name: 'email', // with instructions how to reach them with additional questions.
+        type: 'input', 
+        name: 'email', 
         message: 'What is your email address?',
     },
 
 ]);
 
-
-
-// function to write README file
+// function to write README file to repo.
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) {
@@ -58,14 +56,12 @@ function writeToFile(fileName, data) {
     });
 };
 
-
-
-// function to initialize program
+// function to initialize program.
 function init() {
-    // Prompts user to enter details for project.
+    // Prompts user to enter details for project using questions.
     questions()
-    .then((input) => {
     // Then generates input and uses writeToFile fuction to write the README.md file.
+    .then((input) => {
     // writeToFile('README.md', generateMarkdown(input));
     writeToFile('testerREADME.md', generateMarkdown(input));
 });

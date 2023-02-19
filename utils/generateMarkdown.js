@@ -1,27 +1,4 @@
-// const badgeRender = licenseBadge();
-// // function to generate license badges
-// function licenseBadge(license) {
-//     switch (license) {
-//         case 'MIT':
-//             return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-//             break;
-//         case 'Apache':
-//             return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-//             break;
-//         case 'GPL':
-//             return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
-//             break;
-//         case 'Mozilla':
-//             return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
-//             break;
-//         case 'None':
-//             return "You have not selected a license for this project.";
-//             break;
-//             default:
-//                 console.log("Unknown license");
-//                 break;
-//     }
-
+// function to generate license badges
 function createBadge(data){
   const licenseChoice = data.license;
   if (licenseChoice === 'MIT') {
@@ -36,7 +13,6 @@ function createBadge(data){
     licenseBadge = ''
   } return licenseBadge;
 };
-
 
 // function to generate markdown for README
 function generateMarkdown(data) {
@@ -78,6 +54,29 @@ This project is licensed under ${data.license}.
 
 ## Contributing
 
+Contribute to the project using the following:
+
+1. Fork this project.
+2. Create a feature branch:
+
+<pre>
+  <code>git checkout -b feature/Your_Branch_Name</code>
+</pre>
+
+3. Commit changes:
+
+<pre>
+  <code>git commit -m "Your changes"</code>
+</pre>
+
+4. Push to the Main branch:
+
+<pre>
+  <code>git push origin feature/Your_Branch_Name</code>
+</pre>
+
+5. Open a pull request.
+
 ## Tests
 
 ## Questions
@@ -85,7 +84,7 @@ This project is licensed under ${data.license}.
 Any questions relating to this repository can be opened in an issue, or feel free to contact me 
 directly at ${data.email}.
 
-Take a look at the rest of my work at [${data.username}](https://github.com/${data.username})
+Please take a look at the rest of my work at: [${data.username}](https://github.com/${data.username})
 
 `;
 }
