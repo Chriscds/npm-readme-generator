@@ -1,10 +1,10 @@
 
-# g
+# Test badge
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-g
+testing to see if badge renders.
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -41,7 +41,7 @@ This project is licensed under MIT.
 ## Questions
 
 Any questions relating to this repository can be opened in an issue, or feel free to contact me 
-directly at g.
+directly at csouthon44@gmail.com.
 
-Take a look at the rest of my work at [g](https://github.com/g)
+Take a look at the rest of my work at [Chriscds](https://github.com/Chriscds)
 
