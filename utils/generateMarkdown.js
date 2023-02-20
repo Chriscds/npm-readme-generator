@@ -14,7 +14,7 @@ function createBadge(data){
   } return licenseBadge;
 };
 
-// function to display license chosen information in the License section
+// function to display license chosen information in the License section 
 function licenseInfo(data) {
   const licenseName = data.license;
   if (licenseName === 'MIT') {
@@ -68,7 +68,6 @@ Use this application by running the below command line:
 
 ## License
 
-
 ${licenseInfo(data)}
 
 ## Contributing
@@ -105,7 +104,7 @@ Contribute to the project using the following:
 Any questions relating to this repository can be opened in an issue, or feel free to contact me 
 directly at ${data.email}.
 
-Please take a look at the rest of my work at: [${data.username}](https://github.com/${data.username})
+Please take a look at the rest of my work at [${data.username}](https://github.com/${data.username})
 
 `;
 }

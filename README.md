@@ -4,11 +4,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-A node application, to generate a readme file with the use of npm.
+A node.js application, to generate a readme file for your project from the command line using npm. Create a README.md file from user input, including license badges and contact information, to save time on writing out the users initial README.md.
 
 ## Table of Contents
 - [Installation](#Installation)
 - [Usage](#Usage)
+- [Screenshots](#Screenshots)
 - [Licence](#Licence)
 - [Contributing](#Contributing)
 - [Tests](#Tests)
@@ -29,6 +30,12 @@ Use this application by running the below command line:
 <pre>
   <code>node index.js</code>
 </pre>
+
+## Screenshots
+
+![Command Line Screenshot](images/command-line-input.png)
+
+![Generated README](images/readme-output.png)
 
 ## License
 
