@@ -14,6 +14,24 @@ function createBadge(data){
   } return licenseBadge;
 };
 
+// function to display license chosen information in the License section
+function licenseInfo(data) {
+  const licenseName = data.license;
+  if (licenseName === 'MIT') {
+    licenseDescription = 'This project is licensed under the [MIT](https://opensource.org/licenses/MIT) License.'
+  } else if (licenseName === 'Apache') {
+    licenseDescription = 'This project is licensed under the [Apache](https://opensource.org/licenses/Apache-2.0) License.'
+  } else if (licenseName === 'GPL') {
+    licenseDescription = 'This project is licensed under the [GPL](https://www.gnu.org/licenses/gpl-3.0) License.'
+  } else if (licenseName === 'Mozilla') {
+    licenseDescription = 'This project is licensed under the [Mozilla](https://opensource.org/licenses/MPL-2.0) License.'
+  } else if (licenseName === 'None') {
+    licenseDescription = 'This project does not have a license.'
+  } else {
+    licenseDescription = ''
+  } return licenseDescription;
+};
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
@@ -50,7 +68,8 @@ Use this application by running the below command line:
 
 ## License
 
-This project is licensed under ${data.license}.
+
+${licenseInfo(data)}
 
 ## Contributing
 
