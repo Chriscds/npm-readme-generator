@@ -12,7 +12,7 @@ You can view a video of the working application [here](https://drive.google.com/
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Screenshots](#Screenshots)
-- [Licence](#Licence)
+- [License](#License)
 - [Contributing](#Contributing)
 - [Tests](#Tests)
 - [Questions](#Questions)
