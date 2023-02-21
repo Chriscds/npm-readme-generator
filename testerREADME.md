@@ -9,7 +9,7 @@ To test the generation of readme with this application.
 ## Table of Contents
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Licence](#Licence)
+- [License](#License)
 - [Contributing](#Contributing)
 - [Tests](#Tests)
 - [Questions](#Questions)
