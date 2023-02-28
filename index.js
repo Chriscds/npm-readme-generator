@@ -44,6 +44,16 @@ const questions = () =>
     },
     {
         type: 'input',
+        name: 'contribute', 
+        message: 'Please provide instructions for contributing to this project!',
+    },
+    {
+        type: 'input',
+        name: 'test', 
+        message: 'Please provide command line instructions to test your project!',
+    },
+    {
+        type: 'input',
         name: 'username', 
         message: 'What is your GitHub username?',
     },

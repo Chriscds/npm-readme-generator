@@ -55,7 +55,7 @@ ${data.description}
 Install the necessary dependencies, use the following command line:
 
 <pre>
-  <code>npm install</code>
+  <code>${data.installation}</code>
 </pre>
 
 ## Usage
@@ -63,7 +63,7 @@ Install the necessary dependencies, use the following command line:
 Use this application by running the below command line:
 
 <pre>
-  <code>node index.js</code>
+  <code>${data.usage}</code>
 </pre>
 
 ## License
@@ -74,30 +74,13 @@ ${licenseInfo(data)}
 
 Contribute to the project using the following:
 
-1. Fork this project.
-
-2. Create a feature branch:
-
-<pre>
-  <code>git checkout -b feature/Your_Branch_Name</code>
-</pre>
-
-3. Commit changes:
-
-<pre>
-  <code>git commit -m "Your changes"</code>
-</pre>
-
-4. Push to the Main branch:
-
-<pre>
-  <code>git push origin feature/Your_Branch_Name</code>
-</pre>
-
-5. Open a pull request.
-
+${data.contribute}
 
 ## Tests
+
+<pre>
+  <code>${data.test}</code>
+</pre>
 
 ## Questions
 
