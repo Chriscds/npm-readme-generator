@@ -24,12 +24,22 @@ const questions = () =>
     {
         type: 'input',
         name: 'description',
-        message: 'Please provide a short description of your project.',
+        message: 'Please provide a short description of your project!.',
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Please provide installation code for your project!',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide command line instructions to run your application!',
     },
     {
         type: 'list',
-        message: 'Select a License for this project!',
         name: 'license',
+        message: 'Select a License for this project?',
         choices: ['MIT', 'Apache', 'GPL', 'Mozilla', 'None'],
     },
     {
