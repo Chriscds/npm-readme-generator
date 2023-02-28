@@ -82,8 +82,8 @@ function init() {
     questions()
     // Then generates input and uses writeToFile fuction to write the README.md file.
     .then((input) => {
-    // writeToFile('README.md', generateMarkdown(input));
-    writeToFile('testREADME.md', generateMarkdown(input));
+    writeToFile('README.md', generateMarkdown(input));
+    // writeToFile('testREADME.md', generateMarkdown(input));
 });
 };
 
