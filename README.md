@@ -6,7 +6,7 @@
 ## Description
 A node.js application, to generate a readme file for your project from the command line using npm. Create a README.md file from user input, including license badges and contact information, to save time on writing out the users initial README.md. 
 
-You can view a video of the working application [here](https://drive.google.com/file/d/18ikr3YlVLBqlTM3PZweZqLNMdW8YeSkX/view)
+You can view a video of the working application [here](https://drive.google.com/file/d/11YReBi5jf6As_MxEWijV8UBV0V3YqOL-/view)
 
 ## Table of Contents
 - [Installation](#Installation)
